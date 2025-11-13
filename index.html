@@ -3,124 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Manifesto da Sentinela | Juramento Cívico</title>
+    <title>A Sentinela | Vigilância, Verdade, Coragem</title>
     <style>
-        /* CSS Básico - Mantendo o estilo da Home */
+        /* CSS Básico para o Estilo "ALL BLACK SOCIAL" */
         body {
-            background-color: #0a0a0a;
-            color: #ffffff;
-            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a; /* Preto quase absoluto */
+            color: #ffffff; /* Branco puro */
+            font-family: 'Arial', sans-serif; /* Fonte limpa e sem serifa */
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             min-height: 100vh;
-            line-height: 1.6;
-        }
-
-        .header {
             text-align: center;
-            padding: 50px 20px 30px;
-            border-bottom: 1px solid #333;
         }
 
-        .header a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 0.9em;
-            text-transform: uppercase;
-        }
-
-        .content {
+        .container {
             max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
+            padding: 40px 20px;
         }
 
-        .section-title {
-            font-size: 2em;
-            font-weight: 700;
-            margin-top: 50px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            color: #ccc;
-        }
-
-        .juramento-title {
+        /* Estilo do Mantra - VIGILÂNCIA. VERDADE. CORAGEM. */
+        .mantra {
             font-size: 1.5em;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: #ccc; /* Cinza suave */
+        }
+
+        /* Estilo do Título Principal - O Soco no Estômago */
+        .hero-title {
+            font-size: 3.5em;
+            font-weight: 900; /* Extra Bold */
+            line-height: 1.2;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        /* Estilo do Subtítulo de Apoio */
+        .sub-text {
+            font-size: 1.2em;
+            margin-bottom: 50px;
+            line-height: 1.6;
             font-style: italic;
-            margin-bottom: 40px;
             color: #e0e0e0;
         }
 
-        .juramento-item {
-            margin-bottom: 30px;
-            border-left: 3px solid #cc0000; /* Linha Vermelha para impacto */
-            padding-left: 15px;
-        }
-
-        .juramento-item h3 {
+        /* Estilo do Botão CTA (Chamada à Ação) */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
             font-size: 1.1em;
-            font-weight: 900;
-            color: #fff;
-            margin-top: 0;
-            margin-bottom: 5px;
             text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: #0a0a0a;
+            background-color: #ffffff;
+            border: 2px solid #ffffff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
 
+        .cta-button:hover {
+            background-color: transparent;
+            color: #ffffff;
+        }
+
+        /* Footer (Rodapé para Créditos) */
         .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
             text-align: center;
-            padding: 40px 20px;
-            border-top: 1px solid #333;
-            margin-top: 60px;
-            font-size: 0.9em;
+            font-size: 0.8em;
             color: #555;
+        }
+
+        /* Responsividade básica */
+        @media (max-width: 600px) {
+            .hero-title {
+                font-size: 2.5em;
+            }
+            .mantra {
+                font-size: 1em;
+                letter-spacing: 0.3em;
+            }
         }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <a href="index.html">← VOLTAR À MISSÃO</a>
-    </div>
+    <div class="container">
+        <div class="mantra">VIGILÂNCIA. VERDADE. CORAGEM.</div>
 
-    <div class="content">
+        <h1 class="hero-title">A Lei pode ser rasgada. A Constituição pode ser reescrita. Nossa única defesa é o Jornalismo Sentinela.</h1>
 
-        <h1 class="section-title">O Juramento do Jornalista Sentinela</h1>
-        <p class="juramento-title">"Nós não somos apenas repórteres. Somos as sentinelas cívicas da promessa constitucional."</p>
+        <p class="sub-text">A história do Peru de 1992 não é um evento isolado; é um *template* global sobre como a ordem é trocada pela perda da liberdade. Nós existimos para expor e desmantelar a erosão sutil da democracia.</p>
 
-        <div class="juramento-item">
-            <h3>1. Vigiar a Letra Miúda</h3>
-            <p>Não me contentar com as manchetes. Olharei para o Congresso, para os decretos e para as emendas constitucionais. Sei que a democracia morre primeiro no papel, e ali farei minha primeira vigília.</p>
-        </div>
-
-        <div class="juramento-item">
-            <h3>2. Defender o Corpo</h3>
-            <p>Tornar-me a voz da vulnerabilidade. Entenderei que a falha da Lei é sentida na integridade humana. Darei nome, rosto e história aos invisíveis e aos oprimidos pela força do Estado.</p>
-        </div>
-
-        <div class="juramento-item">
-            <h3>3. Priorizar a Verdade Exposta</h3>
-            <p>Usarei todas as ferramentas (dados, investigações, vídeos) para que a corrupção e a mentira se tornem visíveis. Sei que a luz da exposição é o antídoto mais potente contra a operação nas sombras.</p>
-        </div>
-
-        <div class="juramento-item">
-            <h3>4. Recusar a Indiferença</h3>
-            <p>Não serei um espectador neutro. Minha inação é oxigênio para o autoritarismo. Minha profissão é um ato diário de defesa cívica, e o silêncio não será uma opção.</p>
-        </div>
-
-        <div class="juramento-item">
-            <h3>5. Ser Coerente</h3>
-            <p>Lembrarei que a autoridade da minha voz é construída sobre a minha **Coragem** e **Verdade**. Exigirei do poder a transparência que pratico em minha própria conduta.</p>
-        </div>
-        
-        <h2 class="section-title">Junte-se ao Alerta</h2>
-        <p>A Vigilância deve ser constante. Inscreva-se para receber análises concisas sobre as táticas de erosão democrática e ferramentas práticas de reportagem para combatê-las.</p>
-        <p style="color: #ccc;">[Aqui entraria o formulário de inscrição para a newsletter]</p>
-
-
+        <a href="manifesto.html" class="cta-button">LEIA O MANIFESTO</a>
     </div>
 
     <div class="footer">
-        A Sentinela é um projeto de jornalismo cívico. VIGILÂNCIA. VERDADE. CORAGEM.
+        A Sentinela é um projeto de jornalismo cívico. © 2025.
     </div>
 
 </body>
